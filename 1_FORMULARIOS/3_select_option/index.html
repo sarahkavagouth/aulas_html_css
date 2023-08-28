@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select e option</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+        </div>
+        <!-- input radio -->
+        <div>
+            <p>Qual pão você mais gosta?</p>
+            <div>
+                <input type="radio" id="p-queijo" name="p-queijo">
+                <label for="p-queijo">Pão de queijo</label>
+            </div>
+            <div>
+                <input type="radio" id="bisnaguinha" name="bisnaguinha">
+                <label for="bisnaguinha">Bisnaguinha</label>
+            </div>
+        </div>
+        <div>
+            <input type="radio" id="pao-frances" name="pao-frances">
+            <label for="Pão francês">Pão francês</label>
+        </div>
+        <div>
+            <input type="radio" id="croissant" name="croissant">
+            <label for="croissant">Croissant</label>
+        </div>
+        <!-- select e option -->
+        <div>
+            <label for="turma">Selecione um tipo de pão que deseja aprender a preparar:</label>
+            <select name="turma" id="turma">
+                <option selected disabled>Selecione...</option>
+                <option value="baguete">Baguete</option>
+                <option value="p-australiano">Pão australiano</option>
+                <option value="p-forma">Pão de forma</option>
+                <option value="p-sirio">Pão sírio</option>
+            </select>
+
+
+
+        </div>
+
+        <div>
+            <input type="email" id="email" name= email>
+            <label for="email">E-mail para que possamos agendar seu curso:</label>
+        </div>
+
+        <div>
+            <input type="time">
+            <label for="horario" id ="horario" name = horario>Quanto tempo você pretende gastar aprendendo a cozinhar pães?</label>
+        </div>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
