@@ -1,0 +1,22 @@
+.caixa_width {
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+
+/* shorthand => vários valores na mesma propriedade */
+    border: 2px solid brown;
+
+    width: 200px;
+    
+}
+
+.imagem_width {
+    width: 400px
+}
+
+.caixa_height {
+    border: 1px dashed #03254c;
+
+    height: 100px;
+    width: 100px;
+}
